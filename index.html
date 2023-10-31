@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gabarito&family=Montserrat:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de porcentagem %</title>
+</head>
+<body>
+    <div id="titulo">
+        <h1 class="font">Calculadora de porcentagem</h1>
+    </div>
+    <div id="dica">
+        <h2 class="font"> Insira o número desejado e em baixo a porcentagem desejada dele</h2>
+    </div>
+    <div id="principal">
+        <p class="font">Insira aqui o numero desejado</p>
+        <input type="number" id="input1">
+        <p class="font">Insira aqui a porcentagem desejada desse número</p>
+        <input type="number" id="input2">
+    </div>
+    <button onclick="calcular()" id="botao">Calcular</button>
+    <h2 id="resultado" class="font"></h2>
+    <script src="mains.js"></script>
+</body>
+</html>
